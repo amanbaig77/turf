@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faiz Turf - Cricket Ground</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <header>
+        <h1>Faiz Turf</h1>
+        <p>Premium Cricket Ground in Galshaheed, Moradabad</p>
+    </header>
+
+    <section class="gallery">
+        <h2>Our Ground Gallery</h2>
+        <div class="gallery-container">
+            <img src="{% static 'images/ground.jpg.webp' %}">
+            <img src="{% static 'images/ground2.jpg' %}">
+            <img src="{% static 'images/ground3.jpg' %}">
+            <img src="{% static 'images/ground4.jpg' %}">
+            <img src="{% static 'images/ground5.png' %}">
+            <img src="{% static 'images/ground4.jpg' %}">
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="card">
+            <h2>Ground Details</h2>
+            <p><strong>Location:</strong> Galshaheed, Moradabad</p>
+            <p><strong>Fees:</strong> ₹300 / Hour</p>
+            <p><strong>Timing:</strong> 24 Hours Open</p>
+            <p><strong>Contact:</strong> 6399451303</p>
+        </div>
+    
+        <div class="card">
+            <h2>Ground Rules</h2>
+            <ul>
+                <li>No fighting or abusive language</li>
+                <li>Advance booking required</li>
+                <li>Keep the ground clean</li>
+                <li>No alcohol or smoking allowed</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="location">
+        <h2>Location</h2>
+        <iframe 
+            src="https://www.google.com/maps?q=Galshaheed+Moradabad&output=embed"
+            width="100%" height="300" style="border:0;">
+        </iframe>
+    </section>
+
+    <footer>
+        <p>© 2026 Faiz Turf | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

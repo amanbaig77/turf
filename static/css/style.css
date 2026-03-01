@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.details {
+    background: white;
+}
+
+.rules {
+    background: #dff9fb;
+}
+
+.location {
+    background: white;
+}
+
+footer {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.gallery {
+    padding: 60px;
+    background: #ffffff;
+}
+
+.gallery h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px;
+    background: #f4f4f4;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.card ul {
+    padding-left: 20px;
+}
