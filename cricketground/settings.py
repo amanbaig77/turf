@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-50tlv2g5x#jq5=kg9i1-j#m#fmx3^f)gi6-dc*r2#+@o-1m5r^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['faiz-turf.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
